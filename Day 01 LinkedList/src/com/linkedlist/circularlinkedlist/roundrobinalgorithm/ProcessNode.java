@@ -1,0 +1,17 @@
+package com.linkedlist.circularlinkedlist.roundrobinalgorithm;
+
+public class ProcessNode {
+    int processId;
+    int burstTime;
+    int priority;
+    ProcessNode next;
+
+    // Constructor
+    public ProcessNode(int processId, int burstTime, int priority) {
+        this.processId = processId;
+        this.burstTime = burstTime;
+        this.priority = priority;
+        this.next=null;
+    }
+
+}
