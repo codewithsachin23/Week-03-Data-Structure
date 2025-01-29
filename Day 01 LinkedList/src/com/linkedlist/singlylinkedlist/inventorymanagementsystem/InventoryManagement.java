@@ -27,9 +27,9 @@ public class InventoryManagement {
             return;
         }
         Node current=head;
-        while (current!=null){
-            current=current.next;
-        }
+       for(int i=1;i<position&&current!=null;i++){
+           current=current.next;
+       }
 
         if (current == null) {
             System.out.println("Position out of range!");
@@ -127,7 +127,6 @@ public class InventoryManagement {
             }
         }
     }
-
 
     // Display the inventory
     public void displayInventory() {
