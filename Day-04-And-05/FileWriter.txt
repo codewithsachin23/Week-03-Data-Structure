@@ -1,0 +1,5 @@
+this is file write from into console using 
+inputStreamReader and file writer 
+exit.
+I am back.
+How are you doing ?
